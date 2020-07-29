@@ -1,3 +1,5 @@
+http://bobrost.com/nes/assignments.php
+
 nesasm -- a 6502 assembler with specific NES support
 
 This is a re-packaging of the nesasm assembler, so that nbasic users can
