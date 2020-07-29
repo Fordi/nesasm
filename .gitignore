@@ -1,2 +1,2 @@
-source/nesasm
-source/*.o
+*/bin
+.DS_Store
