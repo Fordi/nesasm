@@ -1,2 +1,4 @@
-*/bin
+bin/*.log
+bin/*.o
+bin/nesasm
 .DS_Store
