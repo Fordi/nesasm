@@ -1,0 +1,97 @@
+src/pce.c:546:42: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(1, pcx_nb_args - 1, &x, &y, &w, &h, 8))
+                                                ^~
+src/protos.h:114:41: note: passing argument to parameter 'a' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                        ^
+src/pce.c:546:46: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(1, pcx_nb_args - 1, &x, &y, &w, &h, 8))
+                                                    ^~
+src/protos.h:114:49: note: passing argument to parameter 'b' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                ^
+src/pce.c:546:50: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(1, pcx_nb_args - 1, &x, &y, &w, &h, 8))
+                                                        ^~
+src/protos.h:114:57: note: passing argument to parameter 'c' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                        ^
+src/pce.c:546:54: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(1, pcx_nb_args - 1, &x, &y, &w, &h, 8))
+                                                            ^~
+src/protos.h:114:65: note: passing argument to parameter 'd' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                                ^
+src/pce.c:679:38: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                            ^~
+src/protos.h:114:41: note: passing argument to parameter 'a' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                        ^
+src/pce.c:679:42: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                ^~
+src/protos.h:114:49: note: passing argument to parameter 'b' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                ^
+src/pce.c:679:46: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                    ^~
+src/protos.h:114:57: note: passing argument to parameter 'c' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                        ^
+src/pce.c:679:50: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                        ^~
+src/protos.h:114:65: note: passing argument to parameter 'd' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                                ^
+src/pce.c:728:38: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                            ^~
+src/protos.h:114:41: note: passing argument to parameter 'a' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                        ^
+src/pce.c:728:42: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                ^~
+src/protos.h:114:49: note: passing argument to parameter 'b' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                ^
+src/pce.c:728:46: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                    ^~
+src/protos.h:114:57: note: passing argument to parameter 'c' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                        ^
+src/pce.c:728:50: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args, &x, &y, &w, &h, 16))
+                                                        ^~
+src/protos.h:114:65: note: passing argument to parameter 'd' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                                ^
+src/pce.c:787:42: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args - 1, &x, &y, &w, &h, 16))
+                                                ^~
+src/protos.h:114:41: note: passing argument to parameter 'a' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                        ^
+src/pce.c:787:46: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args - 1, &x, &y, &w, &h, 16))
+                                                    ^~
+src/protos.h:114:49: note: passing argument to parameter 'b' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                ^
+src/pce.c:787:50: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args - 1, &x, &y, &w, &h, 16))
+                                                        ^~
+src/protos.h:114:57: note: passing argument to parameter 'c' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                        ^
+src/pce.c:787:54: warning: passing 'unsigned int *' to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (!pcx_parse_args(0, pcx_nb_args - 1, &x, &y, &w, &h, 16))
+                                                            ^~
+src/protos.h:114:65: note: passing argument to parameter 'd' here
+int  pcx_parse_args(int i, int nb, int *a, int *b, int *c, int *d, int size);
+                                                                ^
+16 warnings generated.

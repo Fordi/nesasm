@@ -1,0 +1,19 @@
+src/expr.c:39:7: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        expr = &prlnbuf[*ip];
+             ^ ~~~~~~~~~~~~~
+src/expr.c:58:12: warning: passing 'unsigned char *' to parameter of type 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                strcpy(expr, "...");
+                                       ^~~~
+/Users/bellio851/develop/emsdk/upstream/emscripten/system/include/libc/string.h:31:31: note: passing argument to parameter here
+char *strcpy (char *__restrict, const char *__restrict);
+                              ^
+src/expr.c:72:9: warning: assigning to 'unsigned char *' from 'char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        expr = &prlnbuf[SFIELD];
+                             ^ ~~~~~~~~~~~~~~~~
+src/expr.c:115:10: warning: assigning to 'unsigned char *' from 'char [80]' converts between pointers to integer types with different sign [-Wpointer-sign]
+                                expr = func_arg[func_idx - 2][arg];
+                                     ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+src/expr.c:414:9: warning: assigning to 'unsigned char *' from 'char [128]' converts between pointers to integer types with different sign [-Wpointer-sign]
+                        expr = func_ptr->line;
+                             ^ ~~~~~~~~~~~~~~
+5 warnings generated.

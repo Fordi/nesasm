@@ -2,7 +2,7 @@
 RMDIR   = rm -rf
 CP      = cp
 USR_BIN = /usr/local/bin
-CC      = gcc
+# CC      = gcc
 MKDIR_P = mkdir -p
 CFLAGS  = -O2 -Wall
 

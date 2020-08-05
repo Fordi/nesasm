@@ -1,0 +1,19 @@
+src/map.c:44:14: warning: passing 'unsigned char [16]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp(header, "FORM", 4) || strncmp(&header[8], "FMAP", 4)) {
+                    ^~~~~~
+/Users/bellio851/develop/emsdk/upstream/emscripten/system/include/libc/string.h:38:26: note: passing argument to parameter here
+int strncmp (const char *, const char *, size_t);
+                         ^
+src/map.c:44:44: warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+        if (strncmp(header, "FORM", 4) || strncmp(&header[8], "FMAP", 4)) {
+                                                  ^~~~~~~~~~
+/Users/bellio851/develop/emsdk/upstream/emscripten/system/include/libc/string.h:38:26: note: passing argument to parameter here
+int strncmp (const char *, const char *, size_t);
+                         ^
+src/map.c:72:15: warning: passing 'unsigned char [16]' to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+                if (strncmp(header, "BODY", 4) == 0) {
+                            ^~~~~~
+/Users/bellio851/develop/emsdk/upstream/emscripten/system/include/libc/string.h:38:26: note: passing argument to parameter here
+int strncmp (const char *, const char *, size_t);
+                         ^
+3 warnings generated.
